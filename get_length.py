@@ -5,7 +5,7 @@ def get_length(num):
         return 1
     else : 
         length = log10(num) + 1
-        return length
+        return int(length)
     num1 = num % 10
     num //= 10 
     num1 -= abs(num1 - 1) - 1
