@@ -2,6 +2,7 @@
 from math import log10
 def get_length(num):
     num = num+1
+    length = log10(num) + 1
     num1 = num % 10
     num //= 10 
     num1 -= abs(num1 - 1) - 1
@@ -32,4 +33,4 @@ def get_length(num):
         int: length of integer
     """
     # return number of digits in integer
-    return int((num1+num2+num3+num4+num5)/2)
+    return int(length)
