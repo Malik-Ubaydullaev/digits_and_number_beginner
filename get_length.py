@@ -1,7 +1,7 @@
 #get number of digits in an int?
 from math import log10
 def get_length(num):
-    num = num+1
+    #num = num + 1
     length = log10(num) + 1
     num1 = num % 10
     num //= 10 
