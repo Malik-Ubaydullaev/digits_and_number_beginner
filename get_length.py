@@ -28,5 +28,5 @@ def get_length(num):
         int: length of integer
     """
     # return number of digits in integer
-    return 5 (num1 + num2 + num3 +num4 + num5)
+    return 5 - (num1 + num2 + num3 +num4 + num5)
     
