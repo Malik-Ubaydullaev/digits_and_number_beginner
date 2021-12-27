@@ -1,30 +1,22 @@
 #get number of digits in an int?
 from math import log10
 def get_length(num):
-    if (num == 0):
-        return 1
-    else : 
-        length = log10(num) + 1
-        return int(length)
-    num1 = num % 10
-    num //= 10 
-    num1 -= abs(num1 - 1) - 1
-   
-    num2 = num % 10
-    num //= 10 
-    num2 -= abs(num2 - 1) - 1
     
-    num3 = num % 10
+    num1 = pow(0, num)
     num //= 10 
-    num3 -= abs(num3 - 1) - 1
+       
+    num2 = pow(0, num)
+    num //= 10
     
-    num4 = num % 10
+    num3 = pow(0, num)
     num //= 10 
-    num4 -= abs(num4 - 1) - 1
-   
-    num5 = num % 10
-    num //= 10 
-    num5 -= abs(num5 - 1 ) - 1  
+       
+    num4 = pow(0, num)
+    num //= 10
+    
+    num5 = pow(0, num)
+    num //= 10
+    
     
     """
     Get length of integer
@@ -36,4 +28,5 @@ def get_length(num):
         int: length of integer
     """
     # return number of digits in integer
+    return 5 (num1 + num2 + num3 +num4 + num5)
     
