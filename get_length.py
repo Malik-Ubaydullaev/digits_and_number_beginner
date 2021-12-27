@@ -2,6 +2,7 @@
 from math import log10
 def get_length(num):
     
+    num += 1
     num1 = pow(0, num)
     num //= 10 
        
